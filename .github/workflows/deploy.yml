@@ -39,4 +39,8 @@ jobs:
           sudo docker pull abhinavsharma392/paytm:latest
           sudo docker stop web-app || true
           sudo docker rm web-app || true
+<<<<<<< HEAD
           sudo docker run -d --name web-app -p 3005:3000 abhinavsharma392/paytm:latest
+=======
+          sudo docker run -d --name web-app -p 3005:3000 abhinavsharma392/paytm:latest
+>>>>>>> 371e464c2748235b1de6bed8e284bf56cbd1d3c8
