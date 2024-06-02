@@ -27,7 +27,7 @@ jobs:
         tags: abhinavsharma392/week-18-class:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-        run: docker pull abhinavsharma392/week-18-class:latest  # Replace with your Docker Hub username and repository
+      run: docker pull abhinavsharma392/week-18-class:latest  # Replace with your Docker Hub username and repository
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@master
